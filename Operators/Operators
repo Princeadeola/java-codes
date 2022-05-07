@@ -1,0 +1,64 @@
+Operators are symbols that perform operations on variables and values.
+
+Operators in Java are the special type of tokens in Java which when coupled with
+entities such as variables or constants or datatypes result in a specific operation such
+as addition, multiplication or even shifting of bits.
+
+Types of Operators
+
+Arithmetic Operators in Java
+
+Java Arithmetic Operators are used to perform arithmetic operations.
+There are mainly 5 Arithmetic Operators in Java.
+a. Addition(+)
+b. Multiplication(*)
+c. Subtraction(-)
+d. Division(/)
+e. Mod2ulo(%)
+
+Assignment Operators
+
+Assignment operators are used in Java to assign values to variables.
+
+There are the following types of assignment operators
+a. += This returns left=left+right
+b. -= This returns left=left-right
+c. *= This returns left=left*right
+d. /= This returns left=left/right
+e. %=This returns left=left%right
+
+
+Comparison Operators in Java
+
+Java comparison Operators are used to check the relation between values or variables.
+The output of relational operators is always a boolean value. Comparison operators are
+used by if conditions and for loop constraints.
+
+Examples:-
+
+a. <(Less than) -returns true if left entity lesser than right entity
+b. >(Greater than)- returns true if left entity greater than right entity.
+c. <=(Less than or equal to)- returns true if the left entity is smaller than or equal
+to right entity.
+d. >=(Greater than or equal to)- returns true if left variable is greater than or equal
+ to right entity
+e. ==(equals to) – returns true if the left and the right entities are equal
+f. !=(not equals to) – returns true if left and right entities are not equal.
+
+
+
+Logical Operators
+
+Logical operators are used to check whether an expression is true or false.
+They are used in decision making.
+
+a. Logical AND in Java
+
+b. Logical OR in Java
+
+
+
+Unary Operators
+
+Unary operators are used with only one operand. For example, ++ is a unary operator
+that increases the value of a variable by 1. That is, ++4 will return 5.

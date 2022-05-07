@@ -1,0 +1,66 @@
+A class — in the context of Java — is a template used to create objects
+and to define object data types and methods.
+
+A class in Java is a logical template to create objects that share common
+properties and methods.
+
+Hence, all objects in a given class will have the same methods or properties.
+
+For example: in the real world, a specific cat is an object of the “cats” class.
+All cats in the world share some characteristics from the same template such as
+being a feline, having a tail, or being the coolest of all animals.
+
+In Java, the “Cat” class is the blueprint from which all individual cats can be generated
+that includes all cat characteristics, such as race, fur color, tail length, eyes shape, etc.
+
+So, for example, you cannot create a house from the cat class, because a house must
+have certain characteristics — such as having a door, windows and a roof — and none of
+these object properties can be found in the cat class.
+
+A class can include the following
+Modifiers: A class can be public or has default access (Refer this for details).
+class keyword: class keyword is used to create a class.
+Class name: The name should begin with an initial letter (capitalized by convention).
+Body: The class body surrounded by braces, { }.
+
+
+How to create a class
+
+public class Dog{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Three Different Types of Variables
+Local variables
+Temporary variables defined inside methods. They are declared and initialized within
+that method, and will be made eligible for garbage collection once the method is completed.
+
+For example: in the method “playing with a string,” the string is a local variable.
+
+Instance variables
+They are variables that are inherent to an object and that can be accessed from inside
+any method, constructor or block.
+
+They are destroyed when the object is destroyed.
+
+    Class variables
+Class variables or static variables are declared with the static keyword in a class.
+They are similar to instance variables, but they are created when the program starts
+and destroyed when the program stops.The main difference with instance variables is in
+what scope they are available. A class variable is accessible from an object instance,
+while an instance variable is not accessible from a class method.
+

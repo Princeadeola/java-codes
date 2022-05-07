@@ -1,0 +1,16 @@
+These are called the non access specifiers
+
+static:	The member belongs to the class, not to objects of that class.
+
+final: Variable values can't be changed once assigned, methods can't be
+overriden, classes can't be inherited.
+
+abstract: If applied to a method - has to be implemented in a subclass,
+if applied to a class - contains abstract methods
+
+synchronized: Controls thread access to a block/method.
+
+volatile: The variable value is always read from the main memory, not from a
+specific thread's memory.
+
+transient: The member is skipped when serializing an object

@@ -1,0 +1,57 @@
+Access specifiers includes
+Default – They are also called package-private Access Modifiers as the declarations
+made using Default Modifiers are visible only within the package.
+
+Private – The declarations made using Private Modifiers are visible within the class only.
+
+Protected – The declarations made using Protected Modifiers are visible within the
+package or all subclasses.
+
+Public – The declarations made using Public Access Modifiers are visible everywhere.
+
+Private Access Specifier
+The private access modifier is specified when any member of a class is prefixed
+with the private keyword. In comparison with the other access modifiers, this is
+the most restricted access modifier.
+
+When the methods or data members are prefixed with a private access modifier,
+the visibility of these methods and data members are restricted so, they can be
+accessed only within the same class where they have been declared, they will not
+be visible to the outside world.
+
+If we have another class from the same package still, we will not be able to access
+these methods or data members. So usually, we keep the class variables and methods as
+private, which are intended to be used inside the same class where declared.
+
+
+Default Access Specifier
+It is not a keyword. Any Java members such as class or methods or data members when
+not specified with any access modifier they are by default considered as default access
+modifier. These methods or data members are only accessible within the same package and
+they cannot be accessed from outside the package. It provides more visibility than a
+private access modifier. But this access modifier is more restricted than protected and
+public access modifiers.
+
+
+
+Protected Access Modifier
+It is a keyword. This access modifier is used to access the methods or data members
+of a class within the same package as well as outside the package but only through
+inheritance. The protected access modifier has more accessibility than private and
+defaults access modifiers. But it has less visibility than the public access modifier.
+
+
+
+Public Access Specifier
+It is a keyword. If a class member like variable, method, or data members are prefixed
+with a public access modifier, then they can be accessed from anywhere inside the program.
+That is, they can be accessed within the same class as well as from outside the different
+class.
+
+It also includes access within the same package and also from outside the package.
+The members like variables, methods, and other data members can be accessed globally.
+
+Using public access modifiers we can provide access to the members most simply.
+There are no restrictions on public access modifier members. Hence, it has the widest
+accessibility or visibility scope as compared to the rest of the access modifiers.
+

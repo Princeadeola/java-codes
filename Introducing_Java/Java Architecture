@@ -1,0 +1,99 @@
+Java Architecture
+
+The java architecture explains the process in which our java codes are being
+executed, let me explain this in this simple steps
+
+*. Once you have written your codes
+
+*. You run your code: In this running of code, there is a process called
+   Compilation and interpretation
+   Note: Compilation and Interpretation means  taking the programmer-readable
+   text in your program file (also called source code) and converting it to bytecodes
+
+        ---------   The Developers work ends -----------
+        ---------   The Rest is handled automatically -------------
+
+*. So the code written in java is converted into byte codes which is done by the
+   Java compiler.
+
+*. The byte codes, then are converted into machine code by the JVM
+
+*. The machine code is executed directly by the machine
+
+So in the process, we have
+         Source code
+             ⬇
+             ⬇                   ➡ ➡ ➡ ➡ Virtual Machine
+        Java Compiler           ⬆                  ⬇ ⬆
+             ⬇                  ⬆                  ⬇ ⬆
+             ⬇                  ⬆                  ⬇ ⬆
+         Byte Codes             ⬆               Operating System(OS)
+             ⬇                  ⬆
+             ⬇                  ⬆
+              ➡ ➡ ➡ ➡ ➡ ➡ ➡
+
+
+Let take a look at the various component of a Java Archecture
+1. Java Source File
+Source code is a group of text listing commands, likely with comments, that can be
+compiled and executed by a machine but written and read by a human. Source code is what
+allows computer programmers to specify, read, and write the code that governs the actions
+of a Java Virtual Machine (JVM).
+
+The source code file has file extension ".java". This is the file that is converted into
+the Java bytecode file, also called the class file. Everything that you physically code
+is "source code". Thanks to Java source code, you will not have to deal with bytecode
+files or machine language files, as those files will be created automatically by Java
+from your source code when you compile and run your program.
+
+2. Java Class File
+A Java class file is a file containing Java bytecode and having .class extension that
+can be executed by JVM. A Java class file is created by a Java compiler from .java
+files as a result of successful compilation. As we know that a single Java programming
+language source file (or we can say .java file) may contain one class or more than
+one class. So if a .java file has more than one class then each class will compile
+into a separate class files.
+
+
+3 Java Virtual Machine
+Ever heard about WORA? (Write once Run Anywhere).  Well, Java applications are called
+WORA because of their ability to run a code on any platform. This is done only because
+of JVM. The JVM is a Java platform component that provides an environment for executing
+Java programs. JVM interprets the bytecode into machine code which is executed in the
+machine in which the Java program runs.
+
+With our Java Virtual Machine, we are able to perform the following
+Loads the code
+Verifies the code
+Executes the code
+Provides runtime environment
+
+The major components of the JVM includes
+Class Loader: Class loader is a subsystem of JVM. It is used to load class files.
+Whenever we run the java program, class loader loads it first.
+
+JIT compiler: The Just-In-Time (JIT) compiler is a part of the runtime environment.
+It helps in improving the performance of Java applications by compiling bytecodes to
+machine code at run time. The JIT compiler is enabled by default. When a method is
+compiled, the JVM calls the compiled code of that method directly. The JIT compiler
+compiles the bytecode of that method into machine code, compiling it “just in time” to run.
+
+Bytecode verifier: Before our code is being executed by the JVM, the bytecode is verified
+using the bytecode verifier. It is used to ensure that the bytecode is executed safely and
+does not pose any security threat to the machine
+
+API: APIs are important software components bundled with the JDK. APIs in Java include
+classes, interfaces, and user Interfaces. They enable developers to integrate various
+applications and websites and offer real-time information.
+
+
+
+
+
+
+
+
+
+
+
+
