@@ -1,0 +1,86 @@
+Streams are the sequence of data that are read from the source
+and written to the destination.
+
+Note:-
+Types of Streams
+Depending upon the data a stream holds, it can be classified into:
+1. Byte Stream
+2. Character Stream
+
+A. BYTE-STREAM
+Byte stream is used to read and write a single byte (8 bits) of data.
+All byte stream classes are derived from base abstract classes called
+InputStream and OutputStream.
+
+B. CHARACTER-STREAM
+Character stream is used to read and write a single character of data.
+All the character stream classes are derived from base abstract classes
+Reader and Writer.
+
+<=======================================================================>
+
+A. BYTE-STREAM
+There are two main basic kind of streams -:-
+1. An input stream is used to read data from the source.
+2. An output stream is used to write data to the destination.
+
+InputStream Class       OutputStream Class
+Source      =====>     Program      ====> Destination
+
+<===============>
+InputStream Class
+The InputStream class of the java.io package is an abstract superclass that
+represents an input stream of bytes.
+Since InputStream is an abstract class, it is not useful by itself.
+However, its subclasses can be used to read data.
+
+Subclasses of InputStream
+In order to use the functionality of InputStream, we can use its subclasses. Some of them are:
+Note:- InputStream is an abstract class. Hence we cannot create an object of InputStream.
+
+1. FileInputStream
+2. BufferedInputStream
+3. ObjectInputStream
+
+Methods of InputStream
+The InputStream class provides different methods that are implemented
+by its subclasses. Here are some of the commonly used methods:
+
+read() - reads one byte of data from the input stream
+read(byte[] array) - reads bytes from the stream and stores in the specified array
+available() - returns the number of bytes available in the input stream
+mark() - marks the position in the input stream up to which data has been read
+reset() - returns the control to the point in the stream where the mark was set
+markSupported() - checks if the mark() and reset() method is supported in the stream
+skips() - skips and discards the specified number of bytes from the input stream
+close() - closes the input stream
+
+
+<=================>
+
+OutputStream Class
+The OutputStream class of the java.io package is an abstract superclass
+that represents an output stream of bytes.
+Since OutputStream is an abstract class, it is not useful by itself.
+However, its subclasses can be used to write data.
+
+NOTE:- OutputStream is an abstract class, so we cannot create an object of OutputStream.
+
+Subclasses of OutputStream
+In order to use the functionality of OutputStream,
+we can use its subclasses. Some of them are:
+
+1. FileOutputStream
+2. ByteArrayOutputStream
+3. BufferedOutputStream
+
+The OutputStream class provides different methods that are
+implemented by its subclasses. Here are some of the methods:
+
+write() - writes the specified byte to the output stream
+write(byte[] array) - writes the bytes from the specified array to the output stream
+flush() - forces to write all data present in output stream to the destination
+close() - closes the output stream
+
+
+
