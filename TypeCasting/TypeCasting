@@ -1,0 +1,29 @@
+What is Type Casting?
+
+Type casting is nothing but assigning a value of one primitive data type to another.
+When you assign the value of one data type to another, you should be aware of the
+compatibility of the data type. If they are compatible, then Java will perform
+the conversion automatically known as Automatic Type Conversion and if not,
+then they need to be casted or converted explicitly.
+
+Two types of type casting
+1. Widening/Implicit Casting
+2. Narrowing/Explicit Casting
+
+Widening casting
+This is done automatically and it is the conversion of a
+smaller data type to the larger type size.
+This happens when the two data types are compatible and
+also when we assign the value of a smaller data type to a larger data type.
+
+byte -> short -> char -> int -> long -> float -> double
+
+
+Narrowing Casting
+This is done by the developer
+it is the converting of a larger data type to a smaller size type.
+
+No automatic conversion is supported from numeric type to char or boolean.
+Also, char and boolean are not compatible with each other.
+
+double -> float -> long -> int -> char -> short -> byte
